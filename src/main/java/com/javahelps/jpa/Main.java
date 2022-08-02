@@ -15,15 +15,19 @@ public class Main {
     public static void main(String[] args) {
 
         // Create two Students
-        create(1, "Alice", 22);     // Alice will get an id 1
-        create(2, "Bob", 20);       // Bob will get an id 2
-        create(3, "Charlie", 25);   // Charlie will get an id 3
+//        create(1, "Alice", 22);     // Alice will get an id 1
+//        create(2, "Bob", 20);       // Bob will get an id 2
+//        create(3, "Charlie", 25);   // Charlie will get an id 3
+//
+//        // Update the age of Bob using the id
+//        upate(2, "Bob", 25);
+//
+//        // Delete the Alice from database
+//        delete(1);
 
-        // Update the age of Bob using the id
-        upate(2, "Bob", 25);
-
-        // Delete the Alice from database
-        delete(1);
+//        ---------------------------------------------------
+//                create( 4,"Alex", 67);     // Alice will get an id 1
+//------------------------------------------------------------
 
         // Print all the Students
         List<Student> students = readAll();
